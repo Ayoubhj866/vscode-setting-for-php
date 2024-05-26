@@ -1,0 +1,76 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+numpad1",
+    "command": "multiCommand.makeRoom"
+  },
+
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "workbench.action.quickOpen"
+  },
+  // {
+  //   "key": "ctrl+e",
+  //   "command": "workbench.action.showAllEditorsByMostRecentlyUsed"
+  // },
+
+  {
+    "key": "ctrl+shift+o",
+    "command": "revealFileInOS"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "workbench.action.gotoSymbol"
+  },
+
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.formatDocument"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.view.extensions"
+  },
+  {
+    "key": "ctrl+numpad1",
+    "command": "workbench.view.explorer",
+    "when": "view.workbench.extension.visible"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "extension.wrapTag",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+space",
+    "command": "extension.addPHPComment",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "-extension.addPHPComment",
+    "when": "editorTextFocus"
+  }
+]

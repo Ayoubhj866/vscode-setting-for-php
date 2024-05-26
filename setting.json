@@ -1,0 +1,106 @@
+{
+  // thems setting
+  "workbench.colorTheme": "Ayu Dark",
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+
+  // for macos styling START
+  "window.nativeTabs": false,
+  "workbench.editor.showIcons": false,
+  "editor.renderLineHighlight": "none",
+  "editor.glyphMargin": false,
+  "editor.selectionHighlight": true,
+  "editor.scrollbar.verticalScrollbarSize": 4,
+  "editor.scrollbar.horizontalScrollbarSize": 4,
+  // for macos styling END
+
+  "window.zoomLevel": 0.8,
+  "editor.minimap.enabled": false,
+  "editor.formatOnPaste": false,
+  "editor.renderWhitespace": "trailing",
+  "editor.linkedEditing": true,
+  // "editor.occurrencesHighlight": "off",
+  "editor.suggest.insertMode": "replace",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  "editor.formatOnSave": true,
+
+  // files settings
+  "files.autoSave": "onFocusChange",
+  "files.defaultLanguage": "markdown",
+
+  //explorer
+  "scm.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  //workbench espacement des sous élément d'un dossier
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.editor.enablePreview": false,
+
+  //auto complet
+  "emmet.triggerExpansionOnTab": true,
+
+  //git settings
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+
+  //font
+  "editor.fontFamily": "'JetBrains Mono' ,'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "600",
+  "editor.letterSpacing": 0.2,
+  "editor.lineHeight": 40,
+  "editor.fontSize": 16,
+
+  // gitlens editing
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+
+  // end of line wrap
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
+  "code-eol.crlfCharacter": "↵",
+  "code-eol.highlightNonDefault": true,
+  "code-eol.highlightExtraWhitespace": true,
+
+  //raccourcie clavier
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.makeRoom",
+      "sequence": [
+        "workbench.action.toggleSidebarVisibility",
+        "workbench.action.toggleActivityBarVisibility"
+      ]
+    }
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "explorer.confirmPasteNative": false,
+  "git-autoconfig.configList": [
+    {
+      "user.email": "ayoubelhajji866@gmail.com",
+      "user.name": "Ayoubhj866"
+    }
+  ],
+  "window.customTitleBarVisibility": "auto",
+  "editor.guides.indentation": true,
+  "workbench.editor.tabActionLocation": "left",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "window.menuBarVisibility": "toggle",
+  "laravel-pint.enable": true,
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
+  },
+  "files.saveConflictResolution": "overwriteFileOnDisk"
+
+  // end of line
+}
